@@ -1,0 +1,60 @@
+.description {
+  font-size: 16px;
+  color: lightcoral;
+  padding-left: 40px;
+}
+
+.slider {
+  width: 640px;
+  height: 480px;
+  background-image: url("FaloodaImages/falooda1.jpg");
+  margin: 10px auto;
+  animation: slide 33s infinite;
+}
+
+@keyframes slide {
+  12.5% {
+    background-image: url("FaloodaImages/falooda1.jpg");
+  }
+  25% {
+    background-image: url("FaloodaImages/falooda2.jpg");
+  }
+  37.5% {
+    background-image: url("FaloodaImages/falooda3.jpg");
+  }
+  50% {
+    background-image: url("FaloodaImages/falooda4.jpg");
+  }
+  62.5% {
+    background-image: url("FaloodaImages/falooda5.jpg");
+  }
+  75% {
+    background-image: url("FaloodaImages/falooda6.jpg");
+  }
+  87.5% {
+    background-image: url("FaloodaImages/falooda7.jpg");
+  }
+  100% {
+    background-image: url("FaloodaImages/falooda8.jpg");
+  }
+}
+  
+  .cook-time {
+    font-weight: bold;
+  }
+  
+  .ingredients {
+    list-style: sqaure;
+  }
+  
+  .time {
+    color: gray;
+  }
+  
+  .external-link {
+    color: SeaGreen;
+  }
+  
+  h1, h2, p, li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
